@@ -1,0 +1,53 @@
+
+Clover EFI installer log - Fri Apr 17 19:15:59 CST 2020
+Installer version: r5112 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *251.0 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:                 Apple_APFS Container disk1         250.7 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +250.7 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD - Data     102.3 GB   disk1s1
+   2:                APFS Volume Preboot                 82.3 MB    disk1s2
+   3:                APFS Volume Recovery                528.1 MB   disk1s3
+   4:                APFS Volume VM                      5.4 GB     disk1s4
+   5:                APFS Volume Macintosh HD            11.2 GB    disk1s5
+
+/dev/disk2 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +8.4 GB     disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS InstallESD              8.1 GB     disk2s2
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.4 GB    disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS Install macOS Catalina  15.0 GB    disk3s2
+
+/dev/disk6 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +341.3 MB   disk6
+   1:                  Apple_HFS balenaEtcher 1.5.81     341.3 MB   disk6s1
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Install macOS Catalina/EFIROOTDIR/EFI folder to /Volumes/Install macOS Catalina/EFI-Backups/r  Board-ID       : 5112/2020-04-17-19h16/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Catalina
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Catalina
+
+Theme 'Error Reading File: /Volumes/EFI/EFI/CLOVER/config.plist' (defined in config.plist) not found !
+Using default theme 'embedded'
+Error Reading File: /Volumes/EFI/EFI/CLOVER/config.plist
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

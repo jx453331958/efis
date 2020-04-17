@@ -1,0 +1,35 @@
+
+Clover EFI installer log - Wed Jun  5 11:01:25 CST 2019
+Installer version: v2.4k r4934 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *240.1 GB   disk0
+   1:                        EFI NO NAME                 209.7 MB   disk0s1
+   2:       Microsoft Basic Data C盘                     107.4 GB   disk0s2
+   3:       Microsoft Basic Data D盘                     123.9 GB   disk0s3
+   4: 6A8B642B-1DD2-11B2-99A6-080020736631               8.6 GB     disk0s4
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *240.1 GB   disk1
+   1:       Microsoft Basic Data MB                      314.6 MB   disk1s1
+   2:                  Apple_HFS Macintosh HD            100.3 GB   disk1s2
+   3:       Microsoft Basic Data E盘                     139.1 GB   disk1s3
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/MB/EFIROOTDIR/EFI folder to /Volumes/MB/EFI-Backups/r4934/2019-06-05-11h01/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/MB
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/MB
+Stage 2 - Written boot6 (x64) to /Volumes/MB/boot
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
